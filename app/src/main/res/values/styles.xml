@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.TVMaze.Toolbar" parent="Widget.MaterialComponents.Toolbar.Surface">
+        <item name="navigationIcon">@drawable/ic_arrow_back_24</item>
+        <item name="titleTextColor">?attr/colorPrimary</item>
+        <item name="navigationIconTint">?attr/colorOnSurface</item>
+    </style>
+</resources>

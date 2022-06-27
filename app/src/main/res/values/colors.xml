@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tv_maze_green">#3C948B</color>
+    <color name="tv_maze_dark_green">#093E38</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#EBEBEB</color>
+    <color name="gray">#4D4D4D</color>
+    <color name="dark_gray">#212121</color>
+
+    <color name="red">#FF0000</color>
+</resources>

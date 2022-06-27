@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TVMaze</string>
+    <string name="search_shows">Search shows</string>
+    <string name="search">Search</string>
+    <string name="network_error">We are unable to reach the internet!</string>
+    <string name="an_error_occurred">An error occurred while loading!</string>
+    <string name="retry">Retry</string>
+    <string name="schedule">Schedule: </string>
+    <string name="airs_at">Airs at: </string>
+    <string name="summary">"Summary: "</string>
+    <string name="episodes">"Episodes: "</string>
+    <string name="season">Season %d</string>
+    <string name="show_poster">Show\'s poster</string>
+    <string name="episode">Episode %d</string>
+    <string name="no_shows_found">No shows matching your query were found.</string>
+</resources>

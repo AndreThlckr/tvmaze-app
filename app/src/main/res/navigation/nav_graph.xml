@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/shows_fragment">
+
+    <fragment
+        android:id="@+id/shows_fragment"
+        android:name="io.github.andrethlckr.tvmaze.show.presentation.shows.ShowsFragment">
+
+        <action
+            android:id="@+id/go_to_search"
+            app:destination="@id/show_search_fragment" />
+
+        <action
+            android:id="@+id/go_to_details"
+            app:destination="@id/details_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/show_search_fragment"
+        android:name="io.github.andrethlckr.tvmaze.show.presentation.search.ShowSearchFragment">
+
+        <action
+            android:id="@+id/go_to_details"
+            app:destination="@id/details_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/details_fragment"
+        android:name="io.github.andrethlckr.tvmaze.show.presentation.details.DetailsFragment">
+
+        <argument
+            android:name="show_id"
+            app:argType="long" />
+
+        <action
+            android:id="@+id/go_to_episode"
+            app:destination="@id/episode_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/episode_fragment"
+        android:name="io.github.andrethlckr.tvmaze.episode.presentation.EpisodeFragment">
+
+        <argument
+            android:name="episode_id"
+            app:argType="long" />
+    </fragment>
+</navigation>
